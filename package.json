@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "name": "angular2_leaflet",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "angular2": "^2.0.0-alpha.46",
+    "leaflet": "^0.7.7",
+    "tsd": "^0.6.5",
+    "typescript": "^1.6.2"
+  }
+}
