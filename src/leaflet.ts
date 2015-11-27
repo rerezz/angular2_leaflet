@@ -1,4 +1,5 @@
-import { Component } from 'angular2/angular2';
+/// <reference path="../typings/tsd.d.ts" />
+import { Component, ElementRef, ViewChild } from 'angular2/angular2';
 
 @Component({
 	selector: 'leaflet',
@@ -6,6 +7,11 @@ import { Component } from 'angular2/angular2';
 	
 })
 export class LeafletComponent {
+	// @ViewChild("leaflet")
+    private leaflet: ElementRef;
 	
+	public helloWorld(): void {
+		console.log("hello world");		
+	}
 }
 

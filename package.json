@@ -1,12 +1,22 @@
 {
   "version": "0.0.1",
   "name": "angular2_leaflet",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Reto Rezzonico <reto@rezzoni.co>",
   "private": true,
-  "dependencies": {},
-  "devDependencies": {
-    "angular2": "^2.0.0-alpha.46",
+  "dependencies": {
     "leaflet": "^0.7.7",
+    "angular2": "^2.0.0-alpha.46"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-typescript": "^2.9.2",
+    "merge2": "^0.3.6",
+    "run-sequence": "^1.1.5",
     "tsd": "^0.6.5",
-    "typescript": "^1.6.2"
+    "typescript": "next"
   }
 }

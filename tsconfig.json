@@ -1,7 +1,22 @@
 {
-    "compilerOptions": {
-        "target": "ES5",
-        "module": "amd",
-        "sourceMap": true
-    }
+  "version": "1.8.0",
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "emitError": false,
+    "noEmitOnError": false,
+    "sourceMap": false,
+    "removeComments": false,
+    "target": "es5",
+    "module": "commonjs",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "experimentalAsyncFunctions": true,
+    "declaration": true,
+    "noExternalResolve":  false
+  },
+  "files": [
+    "./typings/tsd.d.ts",
+    "./src/leaflet.ts"
+  ]
 }
