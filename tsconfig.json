@@ -14,9 +14,5 @@
     "experimentalAsyncFunctions": true,
     "declaration": true,
     "noExternalResolve":  false
-  },
-  "files": [
-    "./typings/tsd.d.ts",
-    "./src/leaflet.ts"
-  ]
+  }
 }
